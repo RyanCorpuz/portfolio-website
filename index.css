@@ -1,0 +1,96 @@
+html {
+    overscroll-behavior: none;
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #ffdfd3;
+}
+
+.main {
+    height: 1500px;
+    padding: 3em 3em;
+}
+
+div.navbar {
+    overflow: hidden;
+    background-color: #442a44;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.1em 0em;
+    text-align: center;
+    z-index: 9999;
+    box-shadow: 0px 0px 10px gray;
+}
+
+div.navbar a {
+    color: #ffdfd3;
+    text-decoration: none;
+    font: 20px;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+a.pullUp:before {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0px;
+    bottom: 0px;
+    content: '';
+    background: #ffdfd3;
+    opacity: 0.3;
+    transition: all 0.3s;
+}
+
+a.pullUp:hover:before{
+    height: 100%;
+}
+
+.active {
+    background-color: rgba(255, 223, 211, 0.3);
+}
+
+#home {
+    height: 100vh;
+}
+
+section {
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.greeting {
+    color: #442a44;
+    font-size: 4em;
+}
+
+.intro {
+    color: #764c76;
+}
+
+h1 {
+    color: #442a44;
+    margin: -2px;
+}
+
+.item {
+    /*border: 1px solid black;*/
+}
