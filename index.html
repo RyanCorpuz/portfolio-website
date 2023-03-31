@@ -9,23 +9,48 @@
 </head>
 
 <body>
+    <img src="./assets/background.png" style="display:none;" />
+    <!--<div class="navbar">
+        <a class="pullUp active" onclick="functionforscroll('home')">Home</a>
+        <a class="pullUp" onclick="functionforscroll('about')">About</a>
+        <a class="pullUp" onclick="functionforscroll('projects')">Projects</a>
+        <a class="pullUp" onclick="functionforscroll('experience')">Experience</a>
+        <a class="pullUp" onclick="functionforscroll('contact')">Contact</a>
+    </div>-->
     <div class="navbar">
-        <a class="pullUp active" href="#home">Home</a>
-        <a class="pullUp" href="#about">About</a>
-        <a class="pullUp" href="#projects">Projects</a>
-        <a class="pullUp" href="#experience">Experience</a>
-        <a class="pullUp" href="#contact">Contact</a>
+        <a class="hash pullUp active" href="#home">Home</a>
+        <a class="hash pullUp" href="#about">About</a>
+        <a class="hash pullUp" href="#projects">Projects</a>
+        <a class="hash pullUp" href="#experience">Experience</a>
+        <a class="hash pullUp" href="#contact">Contact</a>
     </div>
     
     <main>
-        <section id="home" class="container">
-            <div class="item">
-                <h1 class="greeting">Hi! I'm Ryan</h1>
+        <section id="home">
+            <div class="homecontainer">
+                <div class="portrait">
 
+                </div>
+                <div>
+                    <div class="introcontainer">
+                        <div class="item">
+                            <h1 class="greeting">Hi! I'm Ryan</h1>
+                        </div>
+                        <div  class="item">
+                            <h3 class="intro">Software Engineer, Builder and Innovator</h3>
+                        </div>
+                    </div>
+                    <!-- <button class="aboutbutton" href="#about">About Me</a> -->
+                </div>
+                
+                
+                <div class="scroll">
+                    <a class="" href="#about"><span></span></a>
+                    <a class="" href="#about"><span></span></a>
+                    <a class="" href="#about"><span></span></a>
+                </div>
             </div>
-            <div  class="item">
-                <h3 class="intro">Software Engineer, Builder and Innovator</h3>
-            </div>
+            
         </section>
         <section id="about">
             <h1>About</h1>

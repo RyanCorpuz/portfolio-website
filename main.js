@@ -19,3 +19,21 @@ window.addEventListener("scroll", () => {
     });
 });
 
+function functionforscroll(id){
+    const element = document.getElementById(id);
+    element.scrollIntoView({ behavior: "smooth" });
+    sections.forEach(current => {
+        sectionId = current.getAttribute("id");
+        console.log(sectionId);
+        /*if (sectionId === id) {
+            document.querySelector(".navbar a[href*=" + sectionId + "]").classList.add("active");
+            document.querySelector(".navbar a[href*=" + sectionId + "]").classList.remove("pullUp");
+        }
+        else {
+            document.querySelector(".navbar a[href*=" + sectionId + "]").classList.remove("active");
+            document.querySelector(".navbar a[href*=" + sectionId + "]").classList.add("pullUp");
+        }*/
+    })
+    //document.getElementById(id).scrollIntoView();
+    
+}
