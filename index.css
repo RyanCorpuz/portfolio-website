@@ -25,7 +25,8 @@ div.navbar {
     top: 0;
     left: 0;
     width: 100%;
-    margin: 0 auto;
+    height: 55px;
+    margin: auto auto;
     padding: 1.1em 0em;
     text-align: center;
     z-index: 9999;
@@ -93,6 +94,10 @@ a.pullUp:hover:before{
 section {
     height: 100vh;
     scroll-snap-align: center;
+}
+
+section:not(.home) {
+    padding-top: 55px;
 }
 
 .introcontainer {
