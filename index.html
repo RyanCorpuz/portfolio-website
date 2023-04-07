@@ -5,39 +5,53 @@
     <link rel="stylesheet" href="index.css" />
     <link rel="icon" type="image/x-icon" href="/assets/IconDark.ico" media="(prefers-color-scheme: light)">
     <link rel="icon" type="image/x-icon" href="/assets/IconLight.ico" media="(prefers-color-scheme: dark)">
-    
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        
 </head>
 
 <body>
     <img src="./assets/background.png" style="display:none;" />
-    <!--<div class="navbar">
-        <a class="pullUp active" onclick="functionforscroll('home')">Home</a>
-        <a class="pullUp" onclick="functionforscroll('about')">About</a>
-        <a class="pullUp" onclick="functionforscroll('projects')">Projects</a>
-        <a class="pullUp" onclick="functionforscroll('experience')">Experience</a>
-        <a class="pullUp" onclick="functionforscroll('contact')">Contact</a>
-    </div>-->
-    <div class="navbar">
-        <a class="hash pullUp active" href="#home">Home</a>
-        <a class="hash pullUp" href="#about">About</a>
-        <a class="hash pullUp" href="#projects">Projects</a>
-        <a class="hash pullUp" href="#experience">Experience</a>
-        <a class="hash pullUp" href="#contact">Contact</a>
+    <div id="navbar" class="navbar">
+        <div class="name">
+            <h3>Ryan <span>Corpuz</span></h3>
+        </div>
+        <a class="links hash pullUp active" href="#home">Home</a>
+        <a class="links hash pullUp" href="#about">About</a>
+        <a class="links hash pullUp" href="#projects">Projects</a>
+        <!--
+        <a class="links hash pullUp" href="#experience">Experience</a>
+        <a class="links hash pullUp" href="#contact">Contact</a>
+        -->
+        <div class="toggle_btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div id="dropdown_menu" class="dropdown_menu">
+            <li><a class="droplink" href="#home">Home</a></li>
+            <li><a class="droplink" href="#about">About</a></li>
+            
+            <li><a class="droplink" href="#projects">Projects</a></li>
+            <!--
+            <li><a class="droplink" href="#experience">Experience</a></li>
+            <li><a class="droplink" href="#contact">Contact</a></li>
+            -->
+        </div>
     </div>
     
     <main>
         <section id="home">
             <div class="homecontainer">
-                <div class="portrait">
+                <img class="homeimg" src="./assets/background.png">
+                <!--<div class="portrait">
 
-                </div>
+                </div>-->
                 <div>
                     <div class="introcontainer">
                         <div class="item">
-                            <h1 class="greeting">Hi! I'm Ryan</h1>
+                            <h1 class="greeting">Hi! I'm <span>Ryan</span></h1>
                         </div>
                         <div  class="item">
-                            <h3 class="intro">Software Engineer, Builder and Innovator</h3>
+                            <h3 class="intro"> Software Engineer building automated systems for an optimized future.</h3>
                         </div>
                     </div>
                     <!-- <button class="aboutbutton" href="#about">About Me</a> -->
@@ -52,17 +66,37 @@
             </div>
         </section>
         <section id="about">
-            <h1>About</h1>
+            <div>
+                <p class="abouttitle">A BIT ABOUT ME</p>
+                <p class="abouttext">
+                    I am a highly skilled software engineer hailing from Edmonton, Alberta, Canada, with an unwavering commitment to leveraging cutting-edge technologies to deliver innovative software solutions. With a solid academic background in Computer Engineering, I spent three years honing my expertise in sensor microfabrication, before realizing my true passion lay in software engineering. Driven by an insatiable appetite for growth, I am deeply committed to staying at the forefront of my field, consistently striving to enhance my abilities and create transformative software systems. I am currently seeking new opportunities to contribute my skills and expertise to impactful software development initiatives.
+                </p>
+            </div>
         </section>
-        <section id="projects">
-            <h1>Projects</h1>
-
-        </section>
+        <!--
         <section id="experience">
             <h1>Experience</h1>
         </section>
-        <section id="contact">
-            <h1>contact</h1>
+        -->
+        <section id="projects">
+            <div class="contactcontainer">
+                <div class="contacttxt">
+                    <h3>More Coming Soon . . .</h3>
+                    <p>Currently updating to enhance the experience</p>
+                </div>
+                <div class="btncontainer">
+                    <div class="social-media">
+                        <a class="contactbtn" href="mailto:rkcorpuz@gmail.com?subject=Hello!"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <div class="social-media">
+                        <a class="contactbtn" href="https://www.linkedin.com/in/ryan-corpuz1/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <hr>
+                <div class="last">
+                    <p>Last Updated April 2023</p>
+                </div>
+            </div>
         </section>
     </main>
 
