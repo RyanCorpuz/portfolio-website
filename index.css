@@ -380,7 +380,6 @@ hr {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-bottom: 10vh;
         align-items: center;
         text-align: center;
         gap: 8vh;
@@ -474,10 +473,13 @@ hr {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-bottom: 10vh;
         align-items: center;
         text-align: center;
         gap: 8vh;
+    }
+
+    .introcontainer {
+        width: 80vw;
     }
 
     .portrait {
@@ -555,10 +557,13 @@ hr {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-bottom: 10vh;
         align-items: center;
         text-align: center;
         gap: 8vh;
+    }
+
+    .introcontainer {
+        width: 40vw;
     }
 
     .portrait {
