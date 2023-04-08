@@ -1,6 +1,7 @@
 html {
     overscroll-behavior: none;
     scroll-behavior: smooth;
+    background-color: #442a44;
 }
 
 * {
