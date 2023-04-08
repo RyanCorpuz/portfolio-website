@@ -103,6 +103,7 @@ section:not(.home) {
     background-size: cover;
     background-image: url("./assets/background.jpg");
     background-attachment: fixed;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
