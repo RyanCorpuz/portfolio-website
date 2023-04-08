@@ -1,7 +1,6 @@
 html {
     overscroll-behavior: none;
     scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
 }
 
 * {
@@ -463,6 +462,9 @@ hr {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 993px) {
+    html {
+        scroll-snap-type: y mandatory;
+    }
     .name {
         display: flex;
         align-items: center;
@@ -579,6 +581,9 @@ hr {
 
 @media only screen and (min-width: 993px)
 {
+    html {
+        scroll-snap-type: y mandatory;
+    }
     .name {
         display: none;
     }
