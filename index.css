@@ -101,7 +101,7 @@ section:not(.home) {
     top: 0;
     left: 0;
     background-size: cover;
-    background-image: url("./assets/background.png");
+    background-image: url("./assets/background.jpg");
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
