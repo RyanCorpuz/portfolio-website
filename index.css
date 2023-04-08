@@ -455,6 +455,7 @@ hr {
         display: block;
         width: 55vw;
         margin-bottom: 15px;
+        margin-top: auto;
         object-fit: cover;
         border-radius: 50%;
         background-color: #ffdfd3;
