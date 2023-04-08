@@ -714,7 +714,7 @@ hr {
 
     .regaboutimg {
         display: block;
-        width: 30vw;
+        height: 50vh;
         margin-right: 30px;
         object-fit: cover;
     }
