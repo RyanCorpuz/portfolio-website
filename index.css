@@ -145,7 +145,7 @@ section:not(.home) {
 
 .greeting {
     color: rgba(255, 223, 211, 0.4);
-    letter-spacing: 5px;
+    letter-spacing: 8px;
     margin-bottom: 10px;
 }
 .greeting span {
@@ -646,6 +646,7 @@ hr {
 
     .intro {
         font-size: 1.8em;
+        letter-spacing: 2px;
     }
 
     h1 {
