@@ -424,7 +424,7 @@ hr {
         justify-content: start;
         align-items: center;
         flex-direction: column;
-        padding: 10vw;
+        padding: 55px 10vw 10vh 10vw;
     }
 
     #about > div{
@@ -455,7 +455,6 @@ hr {
         display: block;
         width: 55vw;
         margin-bottom: 15px;
-        margin-top: 30px;
         object-fit: cover;
         border-radius: 50%;
         background-color: #ffdfd3;
