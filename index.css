@@ -456,7 +456,7 @@ hr {
 
     #about .smallaboutimg {
         display: block;
-        width: 250px;
+        width: 55vw;
         margin-bottom: 15px;
         margin-top: auto;
         object-fit: cover;
