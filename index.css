@@ -389,6 +389,10 @@ hr {
         text-align: center;
     }
 
+    #home {
+        background-position: 0 25%;
+    }
+
     .homecontainer {
         height: 100vh;
         display: flex;
