@@ -28,11 +28,12 @@ section {
     height: 100vh;
     width: 100vw;
     scroll-snap-align: center;
-    background-color: #442a44;
+    
 }
 
 section:not(.home) {
     padding-top: 55px;
+    background-color: #442a44;
 }
 
 .navbar{
@@ -96,9 +97,9 @@ section:not(.home) {
     width: 100%;
     top: 0;
     left: 0;
-    /*background-size: cover;
+    background-size: cover;
     background-image: url("./assets/background.png");
-    background-attachment: fixed;*/
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -112,6 +113,9 @@ section:not(.home) {
     object-fit: cover;
     opacity: 0.65;
     position: absolute;
+}
+
+.homecontainer {
 }
 
 .introcontainer {
