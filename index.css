@@ -180,7 +180,7 @@ section:not(.home) {
     letter-spacing: .1em;
     text-decoration: none;
     transition: opacity .3s;
-    animation: fadeTransIn 1.2s 1.5s forwards;
+    animation: fadeTransIn 1.2s 1s forwards;
     opacity: 0;
 }
 
@@ -242,6 +242,11 @@ section:not(.home) {
 
 .contacttxt {
     margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .contacttxt > h3 {
@@ -307,6 +312,27 @@ hr {
     display: none;
 }
 
+.dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot-bouncing {
+    position: relative;
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffdfd3;
+    color: #ffdfd3;
+    margin: 50px 20px 20px 20px;
+}
+
+.bounce1 {animation: bounce 1.7s infinite linear;}
+.bounce2 {animation: bounce 1.7s infinite 0.3s linear;}
+.bounce3 {animation: bounce 1.7s infinite 0.6s linear;}
+  
 @-webkit-keyframes sdb04 {
     0% {
     -webkit-transform: rotate(-45deg) translate(0, 0);
@@ -338,6 +364,18 @@ hr {
     100% { 
         opacity: 1;
         transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translate(0 ,0)
+    }
+    25% {
+        transform: translate(0 ,-10px)
+    }
+    50% {
+        transform: translate(0 ,0)
     }
 }
 
