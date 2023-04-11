@@ -424,7 +424,7 @@ hr {
     }
 
     #home{
-        background-attachment: cover;
+        background-attachment: initial;
         background-image: url("./assets/backgroundsmall.jpg");
     }
 
