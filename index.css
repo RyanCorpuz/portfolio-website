@@ -98,7 +98,6 @@ section:not(.home) {
 #home {
     top: 0;
     left: 0;
-    background-image: url("./assets/background.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -423,6 +422,10 @@ hr {
 
     .container {
         text-align: center;
+    }
+
+    #home {
+        background-image: url("./assets/backgroundsmall.jpg");
     }
 
     .homecontainer {
