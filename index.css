@@ -98,10 +98,10 @@ section:not(.home) {
 #home {
     top: 0;
     left: 0;
-    background-size: cover;
     background-image: url("./assets/background.jpg");
+    background-size: cover;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
     display: flex;
     flex-direction: column;
     justify-content: center;
