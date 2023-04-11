@@ -425,6 +425,7 @@ hr {
     }
 
     #home {
+        min-height: 100%;
         background-image: url("./assets/backgroundsmall.jpg");
     }
 
